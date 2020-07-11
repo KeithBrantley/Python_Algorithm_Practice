@@ -10,7 +10,6 @@ def selection_sort(list_a):
             if list_a[j] < list_a[min_value]:
                 min_value = j
 
-
         if min_value != i:
             list_a[min_value], list_a[i] = list_a[i], list_a[min_value]
 
